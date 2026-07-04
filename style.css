@@ -16,7 +16,6 @@ body {
   background-color: var(--bg);
   color: var(--text-main);
   overflow-x: hidden;
-  position: relative;
 }
 .bg-texture {
   position: fixed;
@@ -48,7 +47,6 @@ body {
   color: var(--text-soft);
   font-size: 14px;
   font-weight: 500;
-  transition: color 0.2s ease;
 }
 .nav-links a:hover,
 .nav-links a.active {
@@ -90,7 +88,6 @@ body {
   width: 260px;
   height: 240px;
   object-fit: cover;
-  border-radius: 130px 130px 20px 20px;
 }
 .text-side h1 {
   font-size: 40px;
@@ -126,13 +123,9 @@ body {
   height: 40px;
   border-radius: 50%;
   border: 1px solid var(--accent);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: var(--text-main);
   text-decoration: none;
   font-size: 16px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 .socials a:hover {
   background-color: var(--accent);
@@ -146,7 +139,6 @@ body {
   border: none;
   border-radius: 30px;
   cursor: pointer;
-  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 .hire-btn:hover {
   background-color: var(--accent-light);
